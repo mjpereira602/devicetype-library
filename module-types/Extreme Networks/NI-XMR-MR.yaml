@@ -1,0 +1,15 @@
+---
+manufacturer: Extreme Networks
+model: NetIron XMR management module
+slug: extreme_ni_xmr_mr
+part_number: NI-XMR-MR
+comments: |
+    Former Manufacturers: Foundry, Brocade
+console-ports:
+  - name: Serial {module}
+    type: de-9
+interfaces:
+  - name: Management {module}
+    type: 1000base-t
+    mgmt_only: true
+

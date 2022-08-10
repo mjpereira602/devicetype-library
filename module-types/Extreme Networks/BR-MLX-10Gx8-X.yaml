@@ -1,0 +1,24 @@
+---
+manufacturer: Extreme Networks
+model: MLX Series 8-port 10-GbE(D) module
+slug: extreme_br_mlx_10gx8_x
+part_number: BR-MLX-10Gx8-X
+comments: |
+    Former Manufacturers: Foundry, Brocade
+interfaces:
+  - name: ethernet {module}/1
+    type: 10gbase-x-sfpp
+  - name: ethernet {module}/2
+    type: 10gbase-x-sfpp
+  - name: ethernet {module}/3
+    type: 10gbase-x-sfpp
+  - name: ethernet {module}/4
+    type: 10gbase-x-sfpp
+  - name: ethernet {module}/5
+    type: 10gbase-x-sfpp
+  - name: ethernet {module}/6
+    type: 10gbase-x-sfpp
+  - name: ethernet {module}/7
+    type: 10gbase-x-sfpp
+  - name: ethernet {module}/8
+    type: 10gbase-x-sfpp

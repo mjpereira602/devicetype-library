@@ -35,9 +35,9 @@ front-ports:
     type: 8p8c
     rear_port: '07'
     rear_port_position: 1
-  - name: 08
+  - name: '08'
     type: 8p8c
-    rear_port: 08
+    rear_port: '08'
     rear_port_position: 1
 rear-ports:
   - name: '01'

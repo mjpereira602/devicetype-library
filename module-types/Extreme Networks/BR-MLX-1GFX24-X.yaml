@@ -1,0 +1,56 @@
+---
+manufacturer: Extreme Networks
+model: XMR/MLXE 24 port 1GbE Fiber (SFP) Module
+slug: extreme_br_mlx_1gfx24_x
+part_number: BR-MLX-1GFX24-X
+comments: |
+    Former Manufacturers: Foundry, Brocade
+interfaces:
+  - name: ethernet {module}/1
+    type: 1000base-x-sfp
+  - name: ethernet {module}/2
+    type: 1000base-x-sfp
+  - name: ethernet {module}/3
+    type: 1000base-x-sfp
+  - name: ethernet {module}/4
+    type: 1000base-x-sfp
+  - name: ethernet {module}/5
+    type: 1000base-x-sfp
+  - name: ethernet {module}/6
+    type: 1000base-x-sfp
+  - name: ethernet {module}/7
+    type: 1000base-x-sfp
+  - name: ethernet {module}/8
+    type: 1000base-x-sfp
+  - name: ethernet {module}/9
+    type: 1000base-x-sfp
+  - name: ethernet {module}/10
+    type: 1000base-x-sfp
+  - name: ethernet {module}/11
+    type: 1000base-x-sfp
+  - name: ethernet {module}/12
+    type: 1000base-x-sfp
+  - name: ethernet {module}/13
+    type: 1000base-x-sfp
+  - name: ethernet {module}/14
+    type: 1000base-x-sfp
+  - name: ethernet {module}/15
+    type: 1000base-x-sfp
+  - name: ethernet {module}/16
+    type: 1000base-x-sfp
+  - name: ethernet {module}/17
+    type: 1000base-x-sfp
+  - name: ethernet {module}/18
+    type: 1000base-x-sfp
+  - name: ethernet {module}/19
+    type: 1000base-x-sfp
+  - name: ethernet {module}/20
+    type: 1000base-x-sfp
+  - name: ethernet {module}/21
+    type: 1000base-x-sfp
+  - name: ethernet {module}/22
+    type: 1000base-x-sfp
+  - name: ethernet {module}/23
+    type: 1000base-x-sfp
+  - name: ethernet {module}/24
+    type: 1000base-x-sfp

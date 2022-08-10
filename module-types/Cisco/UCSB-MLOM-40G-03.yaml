@@ -1,0 +1,36 @@
+---
+manufacturer: Cisco
+model: Cisco UCS VIC 1340 modular LOM for blade servers
+part_number: UCSB-MLOM-40G-03
+comments: ''
+interfaces:
+- name: dce1
+  type: virtual
+  mgmt_only: false
+  label: dce1
+  description: VIC to FEX (or UCS MINI FI 6324)
+- name: dce5
+  type: virtual
+  mgmt_only: false
+  label: dce5
+  description: VIC to FEX (or UCS MINI FI 6324)
+- name: uplink1
+  type: 10gbase-t
+  mgmt_only: false
+  label: vnic1
+  description: Blade server network connections.
+- name: uplink2
+  type: 10gbase-t
+  mgmt_only: false
+  label: vnic2
+  description: Blade server network connections.
+- name: uplink3
+  type: 10gbase-t
+  mgmt_only: false
+  label: vnic3
+  description: Blade server network connections.
+- name: uplink4
+  type: 10gbase-t
+  mgmt_only: false
+  label: vnic4
+  description: Blade server network connections.

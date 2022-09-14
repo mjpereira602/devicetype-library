@@ -1,0 +1,98 @@
+---
+manufacturer: Lantronix
+model: SLC8016 Advanced Console Manager
+slug: lantronix_slc8016
+part_number: SLC8016
+u_height: 1
+is_full_depth: true
+subdevice_role: ''
+airflow: ''
+comments: ''
+console-ports:
+- name: console
+  type: rj-45
+  label: ''
+  description: ''
+console-server-ports:
+- name: p1
+  type: rj-45
+  label: ''
+  description: ''
+- name: p2
+  type: rj-45
+  label: ''
+  description: ''
+- name: p3
+  type: rj-45
+  label: ''
+  description: ''
+- name: p4
+  type: rj-45
+  label: ''
+  description: ''
+- name: p5
+  type: rj-45
+  label: ''
+  description: ''
+- name: p6
+  type: rj-45
+  label: ''
+  description: ''
+- name: p7
+  type: rj-45
+  label: ''
+  description: ''
+- name: p8
+  type: rj-45
+  label: ''
+  description: ''
+- name: p9
+  type: rj-45
+  label: ''
+  description: ''
+- name: p10
+  type: rj-45
+  label: ''
+  description: ''
+- name: p11
+  type: rj-45
+  label: ''
+  description: ''
+- name: p12
+  type: rj-45
+  label: ''
+  description: ''
+- name: p13
+  type: rj-45
+  label: ''
+  description: ''
+- name: p14
+  type: rj-45
+  label: ''
+  description: ''
+- name: p15
+  type: rj-45
+  label: ''
+  description: ''
+- name: p16
+  type: rj-45
+  label: ''
+  description: ''
+power-ports:
+- name: PSU0
+  type: iec-60320-c14
+  maximum_draw: null
+  allocated_draw: null
+  label: ''
+  description: ''
+interfaces:
+- name: eth1
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+- name: eth2
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''

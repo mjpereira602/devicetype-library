@@ -1,0 +1,29 @@
+---
+- hosts: localhost
+  gather_facts: no
+  vars:
+    device_types: |
+        {%- set dt = [] -%}
+        {%- for f in query('ansible.builtin.fileglob', 'Cisco/ASR*.yaml') -%}
+        {%- set _ = dt.append(lookup('ansible.builtin.file',f) | from_yaml) -%}
+        {%- endfor -%}
+        {{ dt }}
+        
+  tasks:
+    - debug:
+        var: device_types
+    - name: Adding device types to netbox
+      uri:
+        url: http://localhost:8000/dcim/device_types/import
+        method: POST
+        headers:
+          Authorization: "Token 0123456789abcdef0123456789abcdef01234567"
+        body:
+          data: "{{ item | to_json }}"
+          format: "json"
+        body_format: json
+      loop_control:
+        label: "{{ item.model | default('unknown')  }}" 
+      loop: "{{ device_types }}"
+      
+  

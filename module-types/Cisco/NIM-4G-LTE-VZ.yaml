@@ -1,8 +1,7 @@
 ---
 manufacturer: Cisco
-model: NIM-4G-LTE-VZ
 part_number: NIM-4G-LTE-VZ
-comments: '[Cisco Wireless WAN Routers and Modules Data Sheet](https://www.cisco.com/c/en/us/solutions/collateral/enterprise-networks/4g-lte-solutions/datasheet-c78-743503.html)'
+model: LTE 2.0 NIM for Verizon
 interfaces:
-  - name: Cellular0
+  - name: Cellular{module}/0
     type: lte

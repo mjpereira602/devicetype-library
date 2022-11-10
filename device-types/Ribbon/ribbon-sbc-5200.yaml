@@ -1,0 +1,51 @@
+---
+manufacturer: Ribbon
+model: SBC 5200
+slug: ribbon-sbc-5200
+u_height: 2
+is_full_depth: true
+console:
+  - name: SERIAL
+    type: de-9
+  - name: ALARM
+    type: db-25
+interfaces:
+  - name: FSP
+    label: Field Service
+    type: 100base-tx
+    mgmt_only: true
+  - name: HA0
+    type: 1000base-x-sfp
+  - name: HA1
+    type: 1000base-x-sfp
+  - name: pkt0
+    label: MEDIA0
+    type: 1000base-x-sfp
+  - name: pkt1
+    label: MEDIA1
+    type: 1000base-x-sfp
+  - name: pkt2
+    label: MEDIA2
+    type: 1000base-x-sfp
+  - name: pkt3
+    label: MEDIA3
+    type: 1000base-x-sfp
+  - name: MGMT0
+    type: 100base-tx
+    mgmt_only: true
+  - name: MGMT1
+    type: 100base-tx
+    mgmt_only: true
+module-bays:
+  - name: DSP-1
+    position: '1'
+  - name: DSP-2
+    position: '2'
+  - name: DSP-3
+    position: '3'
+  - name: DSP-4
+    position: '4'
+  - name: PSU1
+    position: '1'
+  - name: PSU2
+    position: '2'

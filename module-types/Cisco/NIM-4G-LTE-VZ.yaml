@@ -1,0 +1,7 @@
+---
+manufacturer: Cisco
+part_number: NIM-4G-LTE-VZ
+model: LTE 2.0 NIM for Verizon
+interfaces:
+  - name: Cellular{module}/0
+    type: lte

@@ -1,0 +1,7 @@
+---
+manufacturer: Cisco
+part_number: NIM-1GE-CU-SFP
+model: 1-port Gigabit Ethernet NIM, dual mode SFP or RJ45
+interfaces:
+  - name: GigabitEthernet{module}/0
+    type: 1000base-x-sfp

@@ -1,0 +1,8 @@
+---
+manufacturer: Ribbon
+model: SBC-5400-PSUDC
+slug: ribbon-sbc-5400-psudc
+power-ports:
+  - name: PSU{module}
+    type: dc-terminal
+

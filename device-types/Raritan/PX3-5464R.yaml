@@ -1,0 +1,82 @@
+---
+manufacturer: Raritan
+model: PX3-5464R
+slug: px3-5464r
+part_number: PX3-5464R
+u_height: 2
+is_full_depth: true
+comments: '[Rack PDU 208V 30A, Metered, Remote Switching, (16) C13 & (4) C19](https://www.raritan.com/product-selector/pdu-detail/px3-5464r)'
+console-ports:
+  - name: Serial
+    type: rj-45
+power-ports:
+  - name: Inlet1
+    type: nema-l6-30p
+power-outlets:
+  - name: Outlet1
+    type: iec-60320-c13
+    power_port: Inlet1
+  - name: Outlet2
+    type: iec-60320-c13
+    power_port: Inlet1
+  - name: Outlet3
+    type: iec-60320-c13
+    power_port: Inlet1
+  - name: Outlet4
+    type: iec-60320-c13
+    power_port: Inlet1
+  - name: Outlet5
+    type: iec-60320-c13
+    power_port: Inlet1
+  - name: Outlet6
+    type: iec-60320-c13
+    power_port: Inlet1
+  - name: Outlet7
+    type: iec-60320-c13
+    power_port: Inlet1
+  - name: Outlet8
+    type: iec-60320-c13
+    power_port: Inlet1
+  - name: Outlet9
+    type: iec-60320-c19
+    power_port: Inlet1
+  - name: Outlet10
+    type: iec-60320-c19
+    power_port: Inlet1
+  - name: Outlet11
+    type: iec-60320-c13
+    power_port: Inlet1
+  - name: Outlet12
+    type: iec-60320-c13
+    power_port: Inlet1
+  - name: Outlet13
+    type: iec-60320-c13
+    power_port: Inlet1
+  - name: Outlet14
+    type: iec-60320-c13
+    power_port: Inlet1
+  - name: Outlet15
+    type: iec-60320-c13
+    power_port: Inlet1
+  - name: Outlet16
+    type: iec-60320-c13
+    power_port: Inlet1
+  - name: Outlet17
+    type: iec-60320-c13
+    power_port: Inlet1
+  - name: Outlet18
+    type: iec-60320-c13
+    power_port: Inlet1
+  - name: Outlet19
+    type: iec-60320-c19
+    power_port: Inlet1
+  - name: Outlet20
+    type: iec-60320-c19
+    power_port: Inlet1
+interfaces:
+  - name: Eth1
+    type: 1000base-t
+    mgmt_only: true
+  - name: Eth2
+    type: 100base-tx
+    mgmt_only: true

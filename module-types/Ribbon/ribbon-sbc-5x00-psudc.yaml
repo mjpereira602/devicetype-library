@@ -1,0 +1,8 @@
+---
+manufacturer: Ribbon
+model: SBC-5x00-PSUDC
+slug: ribbon-sbc-5x00-psudc
+power-ports:
+  - name: PSU{module}
+    type: dc-terminal
+

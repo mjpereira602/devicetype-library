@@ -1,0 +1,40 @@
+---
+manufacturer: Cisco
+model: A9K-RSP880-TR
+part_number: A9K-RSP880-TR
+comments: '[ASR 9000 Route Switch Processor 880 for Packet Transport 16G](https://www.cisco.com/c/en/us/products/collateral/routers/asr-9000-series-aggregation-services-routers/datasheet-c78-733763.html)'
+interfaces:
+  - name: MgmtEth0/RSP{module}/CPU0/0
+    type: 1000base-t
+    mgmt_only: true
+    description: Out-of-Band Management Interface
+  - name: MgmtEth0/RSP{module}/CPU0/1
+    type: 1000base-t
+    mgmt_only: true
+    description: Out-of-Band Management Interface
+  - name: External USB2 class-A port
+    type: other
+    mgmt_only: true
+  - name: SFP+_00_10GE
+    type: 10gbase-x-sfpp
+    description: Virtualization Cluster Port
+    mgmt_only: true
+  - name: SFP+_01_10GE
+    type: 10gbase-x-sfpp
+    description: Virtualization Cluster Port
+    mgmt_only: true
+  - name: SFP+_02_10GE
+    type: 10gbase-x-sfpp
+    description: Virtualization Cluster Port
+    mgmt_only: true
+  - name: SFP+_03_10GE
+    type: 10gbase-x-sfpp
+    description: Virtualization Cluster Port
+    mgmt_only: true
+console-ports:
+  - name: Console
+    type: rj-45
+    mgmt_only: true
+  - name: Auxiliary
+    type: rj-45
+    mgmt_only: true

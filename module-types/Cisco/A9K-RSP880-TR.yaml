@@ -12,29 +12,29 @@ interfaces:
     type: 1000base-t
     mgmt_only: true
     description: Out-of-Band Management Interface
-  - name: External USB2 class-A port
+  - name: External USB2 class-A port - RSP{module}
     type: other
     mgmt_only: true
-  - name: SFP+_00_10GE
+  - name: SFP+_00_10GE - RSP{module}
     type: 10gbase-x-sfpp
     description: Virtualization Cluster Port
     mgmt_only: true
-  - name: SFP+_01_10GE
+  - name: SFP+_01_10GE - RSP{module}
     type: 10gbase-x-sfpp
     description: Virtualization Cluster Port
     mgmt_only: true
-  - name: SFP+_02_10GE
+  - name: SFP+_02_10GE - RSP{module}
     type: 10gbase-x-sfpp
     description: Virtualization Cluster Port
     mgmt_only: true
-  - name: SFP+_03_10GE
+  - name: SFP+_03_10GE - RSP{module}
     type: 10gbase-x-sfpp
     description: Virtualization Cluster Port
     mgmt_only: true
 console-ports:
-  - name: Console
+  - name: Console - RSP{module}
     type: rj-45
     mgmt_only: true
-  - name: Auxiliary
+  - name: Auxiliary - RSP{module}
     type: rj-45
     mgmt_only: true

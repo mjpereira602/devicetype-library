@@ -1,7 +1,7 @@
 ---
 manufacturer: Cisco
 model: Catalyst 2960XR-24TD-I
-slug: cisco-ws-c2960xr-24td-i
+slug: ws-c2960xr-24td-i
 part_number: WS-C2960XR-24TD-I
 is_full_depth: false
 u_height: 1
@@ -61,19 +61,11 @@ interfaces:
     type: 1000base-t
   - name: GigabitEthernet1/0/24
     type: 1000base-t
-  - name: GigabitEthernet1/0/25
-    type: 1000base-x-sfp
-  - name: GigabitEthernet1/0/26
-    type: 1000base-x-sfp
-  - name: TenGigabitEthernet1/0/1
-    type: 10gbase-x-sfpp
-  - name: TenGigabitEthernet1/0/2
-    type: 10gbase-x-sfpp
 console-ports:
   - name: con 0
     type: rj-45
-module-bays:
+power-ports:
   - name: PSU0
-    position: '0'
+    type: iec-60320-c14
   - name: PSU1
-    position: '1'
+    type: iec-60320-c14

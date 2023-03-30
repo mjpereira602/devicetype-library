@@ -1,0 +1,31 @@
+---
+manufacturer: Generic
+model: 1MTP4LCDOM4A
+part_number: 1MTP4LCDOM4A 
+comments: 1 MTP-8 to 4 LCD
+rear-ports:
+  - name: '{module}:1-8'
+    label: '{module}:1-8'
+    type: mpo
+    positions: 4
+front-ports:
+  - name: '{module}:1-2'
+    label: '{module}:1-2'
+    type: lc
+    rear_port: '{module}:1-8'
+    rear_port_position: 1
+  - name: '{module}:3-4'
+    label: '{module}:3-4'
+    type: lc
+    rear_port: '{module}:1-8'
+    rear_port_position: 2
+  - name: '{module}:5-6'
+    label: '{module}:5-6'
+    type: lc
+    rear_port: '{module}:1-8'
+    rear_port_position: 3
+  - name: '{module}:7-8'
+    label: '{module}:7-8'
+    type: lc
+    rear_port: '{module}:1-8'
+    rear_port_position: 4

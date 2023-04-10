@@ -1,0 +1,214 @@
+---
+manufacturer: Cisco
+model: Panel-48-3-hdbnc
+slug: panel-48-3-hdbnc
+part_number: PANEL-48-3-HDBNC
+u_height: 2
+is_full_depth: True
+airflow: passive
+front-ports:
+  - name: 'coax-0'
+    type: bnc
+    rear_port: 'hdbnc-1'
+    rear_port_position: 1
+  - name: 'coax-1'
+    type: bnc
+    rear_port: 'hdbnc-1'
+    rear_port_position: 2
+  - name: 'coax-2'
+    type: bnc
+    rear_port: 'hdbnc-1'
+    rear_port_position: 3
+  - name: 'coax-3'
+    type: bnc
+    rear_port: 'hdbnc-1'
+    rear_port_position: 4
+  - name: 'coax-4'
+    type: bnc
+    rear_port: 'hdbnc-1'
+    rear_port_position: 5
+  - name: 'coax-5'
+    type: bnc
+    rear_port: 'hdbnc-1'
+    rear_port_position: 6
+  - name: 'coax-6'
+    type: bnc
+    rear_port: 'hdbnc-1'
+    rear_port_position: 7
+  - name: 'coax-7'
+    type: bnc
+    rear_port: 'hdbnc-1'
+    rear_port_position: 8
+  - name: 'coax-8'
+    type: bnc
+    rear_port: 'hdbnc-1'
+    rear_port_position: 9
+  - name: 'coax-9'
+    type: bnc
+    rear_port: 'hdbnc-1'
+    rear_port_position: 10
+  - name: 'coax-10'
+    type: bnc
+    rear_port: 'hdbnc-1'
+    rear_port_position: 11
+  - name: 'coax-11'
+    type: bnc
+    rear_port: 'hdbnc-1'
+    rear_port_position: 12
+  - name: 'coax-12'
+    type: bnc
+    rear_port: 'hdbnc-1'
+    rear_port_position: 13
+  - name: 'coax-13'
+    type: bnc
+    rear_port: 'hdbnc-1'
+    rear_port_position: 14
+  - name: 'coax-14'
+    type: bnc
+    rear_port: 'hdbnc-1'
+    rear_port_position: 15
+  - name: 'coax-15'
+    type: bnc
+    rear_port: 'hdbnc-1'
+    rear_port_position: 16
+  - name: 'coax-16'
+    type: bnc
+    rear_port: 'hdbnc-2'
+    rear_port_position: 1
+  - name: 'coax-17'
+    type: bnc
+    rear_port: 'hdbnc-2'
+    rear_port_position: 2
+  - name: 'coax-18'
+    type: bnc
+    rear_port: 'hdbnc-2'
+    rear_port_position: 3
+  - name: 'coax-19'
+    type: bnc
+    rear_port: 'hdbnc-2'
+    rear_port_position: 4
+  - name: 'coax-20'
+    type: bnc
+    rear_port: 'hdbnc-2'
+    rear_port_position: 5
+  - name: 'coax-21'
+    type: bnc
+    rear_port: 'hdbnc-2'
+    rear_port_position: 6
+  - name: 'coax-22'
+    type: bnc
+    rear_port: 'hdbnc-2'
+    rear_port_position: 7
+  - name: 'coax-23'
+    type: bnc
+    rear_port: 'hdbnc-2'
+    rear_port_position: 8
+  - name: 'coax-24'
+    type: bnc
+    rear_port: 'hdbnc-2'
+    rear_port_position: 9
+  - name: 'coax-25'
+    type: bnc
+    rear_port: 'hdbnc-2'
+    rear_port_position: 10
+  - name: 'coax-26'
+    type: bnc
+    rear_port: 'hdbnc-2'
+    rear_port_position: 11
+  - name: 'coax-27'
+    type: bnc
+    rear_port: 'hdbnc-2'
+    rear_port_position: 12
+  - name: 'coax-28'
+    type: bnc
+    rear_port: 'hdbnc-2'
+    rear_port_position: 13
+  - name: 'coax-29'
+    type: bnc
+    rear_port: 'hdbnc-2'
+    rear_port_position: 14
+  - name: 'coax-30'
+    type: bnc
+    rear_port: 'hdbnc-2'
+    rear_port_position: 15
+  - name: 'coax-31'
+    type: bnc
+    rear_port: 'hdbnc-2'
+    rear_port_position: 16
+  - name: 'coax-32'
+    type: bnc
+    rear_port: 'hdbnc-3'
+    rear_port_position: 1
+  - name: 'coax-33'
+    type: bnc
+    rear_port: 'hdbnc-3'
+    rear_port_position: 2
+  - name: 'coax-34'
+    type: bnc
+    rear_port: 'hdbnc-3'
+    rear_port_position: 3
+  - name: 'coax-35'
+    type: bnc
+    rear_port: 'hdbnc-3'
+    rear_port_position: 4
+  - name: 'coax-36'
+    type: bnc
+    rear_port: 'hdbnc-3'
+    rear_port_position: 5
+  - name: 'coax-37'
+    type: bnc
+    rear_port: 'hdbnc-3'
+    rear_port_position: 6
+  - name: 'coax-38'
+    type: bnc
+    rear_port: 'hdbnc-3'
+    rear_port_position: 7
+  - name: 'coax-39'
+    type: bnc
+    rear_port: 'hdbnc-3'
+    rear_port_position: 8
+  - name: 'coax-40'
+    type: bnc
+    rear_port: 'hdbnc-3'
+    rear_port_position: 9
+  - name: 'coax-41'
+    type: bnc
+    rear_port: 'hdbnc-3'
+    rear_port_position: 10
+  - name: 'coax-42'
+    type: bnc
+    rear_port: 'hdbnc-3'
+    rear_port_position: 11
+  - name: 'coax-43'
+    type: bnc
+    rear_port: 'hdbnc-3'
+    rear_port_position: 12
+  - name: 'coax-44'
+    type: bnc
+    rear_port: 'hdbnc-3'
+    rear_port_position: 13
+  - name: 'coax-45'
+    type: bnc
+    rear_port: 'hdbnc-3'
+    rear_port_position: 14
+  - name: 'coax-46'
+    type: bnc
+    rear_port: 'hdbnc-3'
+    rear_port_position: 15
+  - name: 'coax-47'
+    type: bnc
+    rear_port: 'hdbnc-3'
+    rear_port_position: 16
+rear-ports:
+  - name: 'hdbnc-1'
+    label: Port 0-15
+    type: other
+    positions: 16
+  - name: 'hdbnc-2'
+    label: Port 16-31
+    type: other
+    positions: 16
+  - name: 'hdbnc-3'
+    label: Port 32-47
+    type: other
+    positions: 16

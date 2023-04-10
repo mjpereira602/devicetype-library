@@ -1,0 +1,65 @@
+---
+manufacturer: FS
+model: FHD-3MTP6LCQOS2
+part_number: '143164'
+description: FHD® 3 x MTP®-8 Cassette, 24 Fibers OS2 Single Mode, Universal Polarity, 3 x 8F MTP® to 6 x LC Quad (Blue), 0.35dB max
+rear-ports:
+  - name: '{module}:Group 1'
+    type: mpo
+    positions: 6
+  - name: '{module}:Group 2'
+    type: mpo
+    positions: 6
+  - name: '{module}:Group 3'
+    type: mpo
+    positions: 6
+front-ports:
+  - name: '{module}:1.1-12'
+    type: lc
+    rear_port: '{module}:Group 1'
+    rear_port_position: 1
+  - name: '{module}:1.2-11'
+    type: lc
+    rear_port: '{module}:Group 1'
+    rear_port_position: 2
+  - name: '{module}:1.3-10'
+    type: lc
+    rear_port: '{module}:Group 1'
+    rear_port_position: 3
+  - name: '{module}:1.4-9'
+    type: lc
+    rear_port: '{module}:Group 1'
+    rear_port_position: 4
+  - name: '{module}:2.1-12'
+    type: lc
+    rear_port: '{module}:Group 2'
+    rear_port_position: 1
+  - name: '{module}:2.2-11'
+    type: lc
+    rear_port: '{module}:Group 2'
+    rear_port_position: 2
+  - name: '{module}:2.3-10'
+    type: lc
+    rear_port: '{module}:Group 2'
+    rear_port_position: 3
+  - name: '{module}:2.4-9'
+    type: lc
+    rear_port: '{module}:Group 2'
+    rear_port_position: 4
+  - name: '{module}:3.1-12'
+    type: lc
+    rear_port: '{module}:Group 3'
+    rear_port_position: 1
+  - name: '{module}:3.2-11'
+    type: lc
+    rear_port: '{module}:Group 3'
+    rear_port_position: 2
+  - name: '{module}:3.3-10'
+    type: lc
+    rear_port: '{module}:Group 3'
+    rear_port_position: 3
+  - name: '{module}:3.4-9'
+    type: lc
+    rear_port: '{module}:Group 3'
+    rear_port_position: 4
+

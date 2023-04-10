@@ -2,13 +2,13 @@
 manufacturer: FS
 model: 5EIMBE-U
 part_number: '42034'
-comments: Cat5e Keystone RJ45 Coupler, Unshielded, Female to Female Insert Inline Coupler - Blue
+description: Cat5e Keystone RJ45 Coupler, Unshielded, Female to Female Insert Inline Coupler - Blue
 front-ports:
   - name: '{module}'
-    type: 8P8C 
+    type: 8p8c 
     rear_port: '{module}'
     rear_port_position: 1
 rear-ports:
   - name: '{module}'
-    type: 8P8C
+    type: 8p8c
     positions: 1

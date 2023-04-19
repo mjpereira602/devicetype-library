@@ -5,22 +5,18 @@ part_number: 1lctapmmf
 description: 1 port LC tap module MMF
 rear-ports:
   - name: '{module}:1-2 Out'
-    label: '{module}:1-2 Out'
     type: lc 
     positions: 3
 front-ports:
  - name: '{module}:1-2 In'
-   label: '{module}:1-2 In'
    type: lc
    rear_port: '{module}:1-2 Out'
    rear_port_position: 1
  - name: '{module}:1-2 TxD'
-   label: '{module}:1-2 TxD'
    type: lc
    rear_port: '{module}:1-2 Out'
    rear_port_position: 2
  - name: '{module}:1-2 TxU'
-   label: '{module}:1-2 TxU'
    type: lc
    rear_port: '{module}:1-2 Out'
    rear_port_position: 3

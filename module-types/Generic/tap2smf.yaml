@@ -5,41 +5,33 @@ part_number: 2lctapsmf
 description: 2 port LC tap module SMF
 rear-ports:
   - name: '{module}:1-2 Out'
-    label: '{module}:1-2 Out'
     type: lc 
     positions: 3
   - name: '{module}:3-4 Out'
-    label: '{module}:3-4 Out'
     type: lc 
     positions: 3
 front-ports:
  - name: '{module}:1-2 In'
-   label: '{module}:1-2 In'
    type: lc
    rear_port: '{module}:1-2 Out'
    rear_port_position: 1
  - name: '{module}:1-2 TxD'
-   label: '{module}:1-2 TxD'
    type: lc
    rear_port: '{module}:1-2 Out'
    rear_port_position: 2
  - name: '{module}:1-2 TxU'
-   label: '{module}:1-2 TxU'
    type: lc
    rear_port: '{module}:1-2 Out'
    rear_port_position: 3
  - name: '{module}:3-4 In'
-   label: '{module}:3-4 In'
    type: lc
    rear_port: '{module}:3-4 Out'
    rear_port_position: 1
  - name: '{module}:3-4 TxD'
-   label: '{module}:3-4 TxD'
    type: lc
    rear_port: '{module}:3-4 Out'
    rear_port_position: 2
  - name: '{module}:3-4 TxU'
-   label: '{module}:3-4 TxU'
    type: lc
    rear_port: '{module}:3-4 Out'
    rear_port_position: 3

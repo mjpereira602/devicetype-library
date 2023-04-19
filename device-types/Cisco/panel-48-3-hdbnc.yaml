@@ -1,7 +1,7 @@
 ---
 manufacturer: Cisco
-model: Panel-48-3-vhdci
-slug: panel-48-3-vhdci
+model: Panel-48-3-hdbnc
+slug: panel-48-3-hdbnc
 part_number: PANEL-48-3-HDBNC
 u_height: 2
 is_full_depth: True

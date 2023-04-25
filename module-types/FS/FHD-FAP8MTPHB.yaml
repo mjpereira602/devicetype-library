@@ -5,35 +5,35 @@ part_number: '52022'
 description:  FHD® Fiber Adapter Panel, OM3/OM4, MTP®-8/12/24 Key Up to Key Up (Charcoal Gray) Adapter 
 front-ports:
   - name: '{module}:1'
-    type: lc
+    type: mpo
     rear_port: '{module}:1'
     rear_port_position: 1
   - name: '{module}:2'
-    type: lc
+    type: mpo
     rear_port: '{module}:2'
     rear_port_position: 1
   - name: '{module}:3'
-    type: lc
+    type: mpo
     rear_port: '{module}:3'
     rear_port_position: 1
   - name: '{module}:4'
-    type: lc
+    type: mpo
     rear_port: '{module}:4'
     rear_port_position: 1
   - name: '{module}:5'
-    type: lc
+    type: mpo
     rear_port: '{module}:5'
     rear_port_position: 1
   - name: '{module}:6'
-    type: lc
+    type: mpo
     rear_port: '{module}:6'
     rear_port_position: 1
   - name: '{module}:7'
-    type: lc
+    type: mpo
     rear_port: '{module}:7'
     rear_port_position: 1
   - name: '{module}:8'
-    type: lc
+    type: mpo
     rear_port: '{module}:8'
     rear_port_position: 1
 rear-ports:

@@ -1,0 +1,38 @@
+---
+manufacturer: Generic
+model: 2 port LC tap module SMF
+part_number: 2lctapsmf 
+description: 2 port LC tap module SMF
+rear-ports:
+  - name: '{module}:1-2 In'
+    type: lc 
+    positions: 3
+  - name: '{module}:3-4 In'
+    type: lc 
+    positions: 3
+front-ports:
+ - name: '{module}:1-2 Out'
+   type: lc
+   rear_port: '{module}:1-2 In'
+   rear_port_position: 1
+ - name: '{module}:1-2 TxD'
+   type: lc
+   rear_port: '{module}:1-2 In'
+   rear_port_position: 2
+ - name: '{module}:1-2 TxU'
+   type: lc
+   rear_port: '{module}:1-2 In'
+   rear_port_position: 3
+ - name: '{module}:3-4 Out'
+   type: lc
+   rear_port: '{module}:3-4 In'
+   rear_port_position: 1
+ - name: '{module}:3-4 TxD'
+   type: lc
+   rear_port: '{module}:3-4 In'
+   rear_port_position: 2
+ - name: '{module}:3-4 TxU'
+   type: lc
+   rear_port: '{module}:3-4 In'
+   rear_port_position: 3
+

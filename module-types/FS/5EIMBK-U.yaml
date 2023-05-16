@@ -1,0 +1,14 @@
+---
+manufacturer: FS
+model: 5EIMBK-U
+part_number: '10887'
+description: Cat5e Keystone RJ45 Coupler, Unshielded, Female to Female Insert Inline Coupler - Black
+front-ports:
+  - name: '{module}'
+    type: 8p8c 
+    rear_port: '{module}'
+    rear_port_position: 1
+rear-ports:
+  - name: '{module}'
+    type: 8p8c
+    positions: 1

@@ -1,0 +1,91 @@
+---
+manufacturer: FS
+model: "FHD-FAP12MTPHA"
+part_number: '35510'
+description: FHD® Fiber Adapter Panel, OS2/OM3/OM4, MTP®-8/12/24 Key Up to Key Down (Black) Adapter 
+front-ports:
+  - name: '{module}:1'
+    type: mpo
+    rear_port: '{module}:1'
+    rear_port_position: 1
+  - name: '{module}:2'
+    type: mpo
+    rear_port: '{module}:2'
+    rear_port_position: 1
+  - name: '{module}:3'
+    type: mpo
+    rear_port: '{module}:3'
+    rear_port_position: 1
+  - name: '{module}:4'
+    type: mpo
+    rear_port: '{module}:4'
+    rear_port_position: 1
+  - name: '{module}:5'
+    type: mpo
+    rear_port: '{module}:5'
+    rear_port_position: 1
+  - name: '{module}:6'
+    type: mpo
+    rear_port: '{module}:6'
+    rear_port_position: 1
+  - name: '{module}:7'
+    type: mpo
+    rear_port: '{module}:7'
+    rear_port_position: 1
+  - name: '{module}:8'
+    type: mpo
+    rear_port: '{module}:8'
+    rear_port_position: 1
+  - name: '{module}:9'
+    type: mpo
+    rear_port: '{module}:9'
+    rear_port_position: 1
+  - name: '{module}:10'
+    type: mpo
+    rear_port: '{module}:10'
+    rear_port_position: 1
+  - name: '{module}:11'
+    type: mpo
+    rear_port: '{module}:11'
+    rear_port_position: 1
+  - name: '{module}:12'
+    type: mpo
+    rear_port: '{module}:12'
+    rear_port_position: 1
+rear-ports:
+  - name: '{module}:1'
+    type: mpo
+    positions: 1
+  - name: '{module}:2'
+    type: mpo
+    positions: 1
+  - name: '{module}:3'
+    type: mpo
+    positions: 1
+  - name: '{module}:4'
+    type: mpo
+    positions: 1
+  - name: '{module}:5'
+    type: mpo
+    positions: 1
+  - name: '{module}:6'
+    type: mpo
+    positions: 1
+  - name: '{module}:7'
+    type: mpo
+    positions: 1
+  - name: '{module}:8'
+    type: mpo
+    positions: 1
+  - name: '{module}:9'
+    type: mpo
+    positions: 1
+  - name: '{module}:10'
+    type: mpo
+    positions: 1
+  - name: '{module}:11'
+    type: mpo
+    positions: 1
+  - name: '{module}:12'
+    type: mpo
+    positions: 1

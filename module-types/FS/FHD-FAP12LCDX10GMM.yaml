@@ -1,0 +1,91 @@
+---
+manufacturer: FS
+model: "FHD-FAP12LCDX10GMM"
+part_number: '41988'
+description: FHD® Fiber Adapter Panel, 24 Fibers OM4 Multimode, 12 x LC UPC Duplex (Aqua) Adapter, Ceramic Sleeve
+front-ports:
+  - name: '{module}:1'
+    type: lc
+    rear_port: '{module}:1'
+    rear_port_position: 1
+  - name: '{module}:2'
+    type: lc
+    rear_port: '{module}:2'
+    rear_port_position: 1
+  - name: '{module}:3'
+    type: lc
+    rear_port: '{module}:3'
+    rear_port_position: 1
+  - name: '{module}:4'
+    type: lc
+    rear_port: '{module}:4'
+    rear_port_position: 1
+  - name: '{module}:5'
+    type: lc
+    rear_port: '{module}:5'
+    rear_port_position: 1
+  - name: '{module}:6'
+    type: lc
+    rear_port: '{module}:6'
+    rear_port_position: 1
+  - name: '{module}:7'
+    type: lc
+    rear_port: '{module}:7'
+    rear_port_position: 1
+  - name: '{module}:8'
+    type: lc
+    rear_port: '{module}:8'
+    rear_port_position: 1
+  - name: '{module}:9'
+    type: lc
+    rear_port: '{module}:9'
+    rear_port_position: 1
+  - name: '{module}:10'
+    type: lc
+    rear_port: '{module}:10'
+    rear_port_position: 1
+  - name: '{module}:11'
+    type: lc
+    rear_port: '{module}:11'
+    rear_port_position: 1
+  - name: '{module}:12'
+    type: lc
+    rear_port: '{module}:12'
+    rear_port_position: 1
+rear-ports:
+  - name: '{module}:1'
+    type: lc
+    positions: 1
+  - name: '{module}:2'
+    type: lc
+    positions: 1
+  - name: '{module}:3'
+    type: lc
+    positions: 1
+  - name: '{module}:4'
+    type: lc
+    positions: 1
+  - name: '{module}:5'
+    type: lc
+    positions: 1
+  - name: '{module}:6'
+    type: lc
+    positions: 1
+  - name: '{module}:7'
+    type: lc
+    positions: 1
+  - name: '{module}:8'
+    type: lc
+    positions: 1
+  - name: '{module}:9'
+    type: lc
+    positions: 1
+  - name: '{module}:10'
+    type: lc
+    positions: 1
+  - name: '{module}:11'
+    type: lc
+    positions: 1
+  - name: '{module}:12'
+    type: lc
+    positions: 1

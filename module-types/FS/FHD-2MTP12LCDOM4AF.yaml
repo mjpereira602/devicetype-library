@@ -2,7 +2,7 @@
 manufacturer: FS
 model: FHD-2MTP12LCDOM4AF
 part_number: '68541'
-comments: FHD® 2 x MTP®-12 Cassette, 24 Fibers OM4 Multimode, Type AF, 2 x 12F MTP® to 12 x LC Duplex (Aqua), 0.35dB max
+description: FHD® 2 x MTP®-12 Cassette, 24 Fibers OM4 Multimode, Type AF, 2 x 12F MTP® to 12 x LC Duplex (Aqua), 0.35dB max
 front-ports:
   - name: '{module}:1-2'
     type: lc

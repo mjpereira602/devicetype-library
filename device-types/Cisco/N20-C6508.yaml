@@ -6,21 +6,25 @@ part_number: N20-C6508
 u_height: 6
 is_full_depth: true
 subdevice_role: parent
-power-ports:
-  - name: PSU1
-    type: iec-60320-c14
-  - name: PSU2
-    type: iec-60320-c14
-  - name: PSU3
-    type: iec-60320-c14
-  - name: PSU4
-    type: iec-60320-c14
 device-bays:
-  - name: slot1
-  - name: slot2
-  - name: slot3
-  - name: slot4
-  - name: slot5
-  - name: slot6
-  - name: slot7
-  - name: slot8
+  - name: slot-1
+  - name: slot-2
+  - name: slot-3
+  - name: slot-4
+  - name: slot-5
+  - name: slot-6
+  - name: slot-7
+  - name: slot-8
+module-bays:
+  - name: IO Module 1
+    position: '1'
+  - name: IO Module 2
+    position: '2'
+  - name: PSU1
+    position: '1'
+  - name: PSU2
+    position: '2'
+  - name: PSU3
+    position: '3'
+  - name: PSU4
+    position: '4'

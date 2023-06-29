@@ -8,21 +8,15 @@ console-ports:
   - name: IOM {module} USB0
     type: usb-a
 interfaces:
-  - name: Fabric {module} 1/5/1
+  - name: IOM {module} Fabric 1/5
     type: 40gbase-x-qsfpp
-  - name: Fabric {module} 1/5/2
-    type: 40gbase-x-qsfpp
-  - name: Fabric {module} 1/5/3
-    type: 40gbase-x-qsfpp
-  - name: Fabric {module} 1/5/4
-    type: 40gbase-x-qsfpp
-  - name: Fabric {module} 1/1
+  - name: IOM {module} Fabric 1/1
     type: 10gbase-x-sfpp
-  - name: Fabric {module} 1/2
+  - name: IOM {module} Fabric 1/2
     type: 10gbase-x-sfpp
-  - name: Fabric {module} 1/3
+  - name: IOM {module} Fabric 1/3
     type: 10gbase-x-sfpp
-  - name: Fabric {module} 1/4
+  - name: IOM {module} Fabric 1/4
     type: 10gbase-x-sfpp
   - name: IOM {module} Mgmt0
     type: 1000base-t

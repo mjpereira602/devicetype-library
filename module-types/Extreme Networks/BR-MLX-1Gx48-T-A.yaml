@@ -1,0 +1,106 @@
+---
+manufacturer: Extreme Networks
+model: 48-port 10/100/1000Base-T MRJ21 Module
+slug: extreme_br_mlx_1g48_mrj21
+part_number: BR-MLX-1Gx48-T-A
+comments: |
+    Former Manufacturers: Foundry, Brocade
+    Note: Netbox doesn't support MRJ21 physical interfaces
+    so individual 1000base-t ports listed here.
+interfaces:
+  - name: ethernet {module}/1
+    type: 1000base-t
+  - name: ethernet {module}/2
+    type: 1000base-t
+  - name: ethernet {module}/3
+    type: 1000base-t
+  - name: ethernet {module}/4
+    type: 1000base-t
+  - name: ethernet {module}/5
+    type: 1000base-t
+  - name: ethernet {module}/6
+    type: 1000base-t
+  - name: ethernet {module}/7
+    type: 1000base-t
+  - name: ethernet {module}/8
+    type: 1000base-t
+  - name: ethernet {module}/9
+    type: 1000base-t
+  - name: ethernet {module}/10
+    type: 1000base-t
+  - name: ethernet {module}/11
+    type: 1000base-t
+  - name: ethernet {module}/12
+    type: 1000base-t
+  - name: ethernet {module}/13
+    type: 1000base-t
+  - name: ethernet {module}/14
+    type: 1000base-t
+  - name: ethernet {module}/15
+    type: 1000base-t
+  - name: ethernet {module}/16
+    type: 1000base-t
+  - name: ethernet {module}/17
+    type: 1000base-t
+  - name: ethernet {module}/18
+    type: 1000base-t
+  - name: ethernet {module}/19
+    type: 1000base-t
+  - name: ethernet {module}/20
+    type: 1000base-t
+  - name: ethernet {module}/21
+    type: 1000base-t
+  - name: ethernet {module}/22
+    type: 1000base-t
+  - name: ethernet {module}/23
+    type: 1000base-t
+  - name: ethernet {module}/24
+    type: 1000base-t
+  - name: ethernet {module}/25
+    type: 1000base-t
+  - name: ethernet {module}/26
+    type: 1000base-t
+  - name: ethernet {module}/27
+    type: 1000base-t
+  - name: ethernet {module}/28
+    type: 1000base-t
+  - name: ethernet {module}/29
+    type: 1000base-t
+  - name: ethernet {module}/30
+    type: 1000base-t
+  - name: ethernet {module}/31
+    type: 1000base-t
+  - name: ethernet {module}/32
+    type: 1000base-t
+  - name: ethernet {module}/33
+    type: 1000base-t
+  - name: ethernet {module}/34
+    type: 1000base-t
+  - name: ethernet {module}/35
+    type: 1000base-t
+  - name: ethernet {module}/36
+    type: 1000base-t
+  - name: ethernet {module}/37
+    type: 1000base-t
+  - name: ethernet {module}/38
+    type: 1000base-t
+  - name: ethernet {module}/39
+    type: 1000base-t
+  - name: ethernet {module}/40
+    type: 1000base-t
+  - name: ethernet {module}/41
+    type: 1000base-t
+  - name: ethernet {module}/42
+    type: 1000base-t
+  - name: ethernet {module}/43
+    type: 1000base-t
+  - name: ethernet {module}/44
+    type: 1000base-t
+  - name: ethernet {module}/45
+    type: 1000base-t
+  - name: ethernet {module}/46
+    type: 1000base-t
+  - name: ethernet {module}/47
+    type: 1000base-t
+  - name: ethernet {module}/48
+    type: 1000base-t
